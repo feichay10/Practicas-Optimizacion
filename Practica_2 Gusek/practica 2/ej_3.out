@@ -1,0 +1,40 @@
+Problem:    ej_3
+Rows:       4
+Columns:    4
+Non-zeros:  14
+Status:     OPTIMAL
+Objective:  z = 7.5 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 z            B            7.5                             
+     2 r1           NS            49            49             =          -1.8 
+     3 r2           NS            15            15             =          -0.1 
+     4 r3           NS            81            81             =           1.2 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x1           B        15.6667             0               
+     2 x2           NL             0             0                         2.3 
+     3 x3           B        8.16667             0               
+     4 x4           B        8.16667             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
